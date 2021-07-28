@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Cartão Processos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form name="form" action="form" method="post">
+            <h1 style="text-align: center">Cartão Processos</h1>
+            <table style="width:100%">
+                <tr>
+                    <td>
+                        <span>Data de Inclusão</span>
+                    </td>
+                    <td>
+                        <span>Número de Protocolo</span>
+                    </td>
+                    <td>
+                        <span>Código da Cidade</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="datainclusao">
+                    </td> 
+                    <td>
+                        <input type="number" name="protocolo">
+                    </td>
+                    <td>
+                        <input type="number" name="codcidade">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Número do Processo</span>
+                    </td>
+                    <td>
+                        <span>Junta</span>
+                    </td>
+                    <td>
+                        <span>Código da Empresa</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="number" name="processo">
+                    </td>
+                    <td>
+                        <input type="text" name="junta">
+                    </td>
+                    <td>
+                        <input type="number" name="codempresa">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Nome da Empresa</span>
+                    </td>
+                    <td>
+                        <span>Matrícula</span>
+                    </td>
+                    <td>
+                        <span>Ativo</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="nomeempresa">
+                    </td>
+                    <td>
+                        <input type="number" name="matricula">
+                    </td>
+                    <td>
+                        <input type="checkbox" name="ativacao">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <span>Data Início</span>
+                    </td>
+                    <td>
+                        <span>Data Final</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="date" name="datainicio">
+                    </td>
+                    <td>
+                        <input type="date" name="datafinal">
+                    </td>
+                </tr>
+            </table>
+            <input type="button" name="ok" value="OK">
+            <input type="button" name="digitacao" value="Digitação">
+        </form>
+    </body>
+</html>

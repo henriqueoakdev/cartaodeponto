@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/cartaodeponto">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" logAbandoned="true"
+            maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/sistema" password="Genius14789" 
+            removeAbandoned="true" removeAbandonedTimeout="60" type="javax.sql.DataSource" 
+            url="jdbc:sqlserver://192.168.3.107;databaseName=TimeSheet" userName="sa" username="sa"/>
+</Context>

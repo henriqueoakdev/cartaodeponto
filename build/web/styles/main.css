@@ -1,0 +1,78 @@
+
+.body{
+    background: #eee;
+}
+
+.unselectable {
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+}
+
+.titulo{
+    background:#337ab7;
+}
+.titulo:hover{
+    background:#337ab7;
+
+}
+
+.teste{
+    text-align: center; 
+}
+
+.tituloPagina{
+    text-align: center;
+    background-color:#616161;     
+}
+.fontTitulo{
+    font-size:32px;
+    color:#ffffff;
+}
+
+.div{
+     text-align: center;
+     display:block;
+     overflow-y:auto;
+     overflow-x:hidden;
+     max-height:400px;
+     background-color:#eee;
+     padding-top:20px;
+}
+.innerDiv{position: relative;
+     text-align: center;
+     overflow-y:hidden;
+     overflow-x:hidden;
+     background-color:#eee;
+}
+.tabela{
+    text-align: center;
+    position:relative;
+    width:100%;
+
+}
+.tabelaL{
+    text-align: center;
+    position:relative;
+    width:33%;
+}
+.tabelaM{
+    text-align: center;
+    position:relative;
+    width:33%;
+    left:1%;
+}
+.tabelaR{
+    text-align: center;
+    position:relative;
+    width:33%;
+    left:1%;
+}
+.divTabelaInterna{
+    position:relative;
+    width:100%;
+    display:inline-flex;
+}
+tr:hover{
+    background:#81DDF8
+}
